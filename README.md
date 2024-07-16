@@ -1,5 +1,5 @@
 # Refrigeration Load Analysis
-This repository consists of work done during my summer internship at Jindal Steel and Power
+This repository consists of work done during my summer internship at **Jindal Steel and Power**
 
 
 This Flask application allows users to calculate methanol flow and discharge pressure by uploading Excel files with relevant data or by entering values manually. The application processes the input data, applies pre-trained models, and displays the results.
@@ -36,8 +36,12 @@ source /env/bin/activate
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/methanol-flow-discharge-pressure.git
+   git clone https://github.com/your-repo/methanol-flow-discharge-pressure.git 
+1. Install all requirements in the `requirements.txt` file via the command
 
+```bash
+pip install -r requirements. txt
+```
 2.   Install all requirements in the `requirements.txt` file via the command
 
 ```bash
