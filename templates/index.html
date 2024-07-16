@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="text-center">{% block title %} Refrigeration Load Analysis {% endblock %}</h1>
+
+<div class="container mb-3 text-center">
+  <a class="h3 btn btn-primary p-2 " href="{{ url_for('methanol_flow') }}" role="button">Methanol Flow
+    Calculator</a>
+</div>
+<div class="container mb-3 text-center">
+  <a class="h3 btn btn-primary p-2" href="{{ url_for('discharge_pressure') }}" role="button">Discharge
+    Pressure</a>
+</div>
+{% endblock %}
